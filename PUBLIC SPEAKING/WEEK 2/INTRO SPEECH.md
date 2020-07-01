@@ -12,7 +12,7 @@
 
 
 
-  Other then that I like technology, cars, cooking, etc.
+  Other then that I like technology, cars, cooking, etc. and I plan on going into WEB marketing for my career.
 
   But lets cover some of my accomplishments instead.
 
@@ -32,7 +32,7 @@
 
 
 
-  This means I really had to think about what I have overcome and accomplished without help.
+  This means I really had to think about what I had overcome and accomplished without help.
 
   And when I think about it I don't see all my academic accomplishments or typical accomplishments someone might list for this question.
 
