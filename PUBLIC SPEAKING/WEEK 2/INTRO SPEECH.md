@@ -12,7 +12,7 @@
 
 
 
-  Other then that I like technology, cars, cooking, etc. and I plan on going into WEB marketing for my career.
+  Other then that I like technology, cars, cooking and I plan on going into WEB marketing for my career.
 
   But lets cover some of my accomplishments instead.
 
@@ -40,7 +40,7 @@
 
   Matureness.
 
-  Year after year of school I always found that my behavior was much more developed then my classmates; Which was ironic because I was an extremely shy person.  
+  Year after year of school I always found that my behavior was much more mature then my classmates; Which was ironic because I was an extremely shy person and had little social interaction.  
 
   But despite this small problem I learned to act as the adults that were around me.
 
@@ -56,7 +56,7 @@
 
   Overall I think that this is the most important aspect of who I am as a person and what I am like.
 
-  So despite my young exterior I am have the mental age of someone much older.
+  So despite my young exterior I have the mental age of someone much older.
 
   Unlike most 20 somethings I know how to frame houses, build with my two hands, repair cars, and also learn about problems in the world and talk about them in a respectful manor.
 
