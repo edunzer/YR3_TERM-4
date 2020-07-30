@@ -1,0 +1,50 @@
+-- Construct Database, Create Tables Statements
+
+CREATE TABLE JOB (
+JOB_CODE varchar(3) PRIMARY KEY,
+JOB_DESCRIPTION varchar(25),
+JOB_CHG_HOUR float(8),
+JOB_LAST_UPDATE date
+);
+
+CREATE TABLE EMPLOYEE (
+EMP_NUM varchar(3) PRIMARY KEY,
+EMP_LNAME varchar(15),
+EMP_FNAME varchar(15),
+EMP_INITIAL varchar(1),
+EMP_HIREDATE date,
+JOB_CODE varchar(3),
+EMP_YEARS integer,
+CONSTRAINT employee_jobcode FOREIGN KEY (job_code)
+  REFERENCES job (job_code)
+);
+
+
+CREATE TABLE PROJECT (
+PROJ_NUM varchar(3) PRIMARY KEY,
+PROJ_NAME varchar(25),
+PROJ_VALUE float(8),
+PROJ_BALANCE float(8),
+EMP_NUM varchar(3),
+CONSTRAINT project_empnum FOREIGN KEY (emp_num)
+  REFERENCES employee (emp_num)
+);
+
+CREATE TABLE ASSIGNMENT (
+ASSIGN_NUM integer PRIMARY KEY,
+ASSIGN_DATE date,
+PROJ_NUM varchar(3),
+EMP_NUM varchar(3),
+ASSIGN_JOB varchar(3),
+ASSIGN_CHG_HR float(8),
+ASSIGN_HOURS float(8),
+ASSIGN_CHARGE float(8),
+CONSTRAINT assignment_projnum FOREIGN KEY (proj_num)
+  REFERENCES project (proj_num),
+CONSTRAINT assignment_empnum FOREIGN KEY (emp_num)
+  REFERENCES employee (emp_num)
+);
+
+
+
+
