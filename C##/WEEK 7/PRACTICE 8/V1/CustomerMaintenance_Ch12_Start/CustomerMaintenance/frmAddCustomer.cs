@@ -17,19 +17,20 @@ namespace CustomerMaintenance
             InitializeComponent();
         }
 
-        private Customer customer = null;
+        private Customer customer;
 
         public Customer GetNewCustomer()
         {
             this.ShowDialog();
-            return customer;
+           return customer;
         }
 
         private void btnSave_Click(object sender, EventArgs e)
         {
             if (IsValidData())
             {
-                customer = new Customer(txtFirstName.Text, txtLastName.Text, txtEmail.Text);
+                customer = new Customer(txtFirstName.Text, txtLastName.Text,
+                    txtEmail.Text);
                 this.Close();
             }
         }
