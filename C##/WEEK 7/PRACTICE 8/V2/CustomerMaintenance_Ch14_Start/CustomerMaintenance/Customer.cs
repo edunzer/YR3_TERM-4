@@ -70,7 +70,8 @@ namespace CustomerMaintenance
 			}
 		}
 
-		public string GetDisplayText() => firstName + " " + lastName + ", " + email;
-		}
+		public virtual string GetDisplayText() => firstName + " " + lastName + ", " + email;
+
 	}
 }
+

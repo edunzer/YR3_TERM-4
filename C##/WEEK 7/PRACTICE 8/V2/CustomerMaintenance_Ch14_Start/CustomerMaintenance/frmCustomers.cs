@@ -41,6 +41,12 @@ namespace CustomerMaintenance
             Customer customer;
             // TODO: Add code that lets the user enter a new wholesale customer
             // and adds that customer to the customer list
+            frmAddWholesale addwholesaleForm = new frmAddWholesale();
+            customer = addwholesaleForm.GetNewCustomer();
+            if (customer != null)
+            {
+                customers.Add(customer);
+            }
         }
 
         private void btnAddRetail_Click(object sender, EventArgs e)
@@ -48,6 +54,12 @@ namespace CustomerMaintenance
             Customer customer;
             // TODO: Add code that lets the user enter a new retail customer
             // and adds that customer to the customer list
+            frmAddRetail addRetailForm = new frmAddRetail();
+            customer = addRetailForm.GetNewCustomer();
+            if (customer != null)
+            {
+                customers.Add(customer);
+            }
         }
 
         private void btnDelete_Click(object sender, EventArgs e)

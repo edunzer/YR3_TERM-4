@@ -73,6 +73,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Customer.cs" />
     <Compile Include="CustomerDB.cs" />
     <Compile Include="frmAddCustomer.cs">
       <SubType>Form</SubType>
